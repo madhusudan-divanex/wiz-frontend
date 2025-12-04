@@ -1,0 +1,1103 @@
+/* body {
+   color: #fff;
+   background-color: #1C1C1C;
+} */
+
+.title span {
+   color: #BDE04B;
+}
+
+.scam-prevention-bnnr {
+   background-image: url(../images/scam-prevention-bnnr-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 107px;
+   margin-top: 9%;
+   padding-bottom: 107px;
+}
+
+.scam-prevention-content {
+   max-width: 783px;
+}
+
+.scam-prevention-content h5 {
+   font-size: 16px;
+   font-weight: 500;
+   color: #BEE14A;
+   margin-bottom: 16px;
+}
+
+.scam-prevention-content h1 {
+   font-size: 100px;
+   font-weight: 600;
+   line-height: 100px;
+   letter-spacing: -0.05em;
+   color: #fff;
+   margin-bottom: 24px;
+   background: linear-gradient(to right, #fff 70%, #e5f3b7 30%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.scam-prevention-content p {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: -0.03em;
+   color: #fff;
+   background: linear-gradient(to right, #fff 70%, #e5f3b7 30%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.category-relations {
+   background-color: #171717;
+}
+
+.category-relations .custom-category {
+   background-color: #BEE14A;
+}
+
+.scams-vision {
+   background-color: transparent;
+}
+
+.scams-vision .vision-impact::before {
+   background-image: url(../images/scam-images/scam-top-shape.png);
+}
+
+.scams-vision .vision-impact::after {
+   background-image: url(../images/scam-images/scam-bttm-shape.png);
+   bottom: 0;
+}
+
+.scams-vision .vision-impact .impact-cards {
+   background-color: #BEE14A;
+}
+
+.scams-vision .vision-impact .impact-cards span {
+   background-color: #626884;
+   border: 0.76px solid #E2EFAB1A;
+}
+
+.scams-vision .vision-impact .impact-cards p {
+   font-size: 16px;
+}
+
+.scams-vision .vision-impact .impact-cards-main {
+   margin-bottom: 24px;
+}
+
+.programme-sec {
+}
+
+.programme-sec .container {
+   position: relative;
+   z-index: 99;
+}
+
+.programme-sec .container::before, .programme-sec .container::after {
+   position: absolute;
+   content: '';
+   width: 220px;
+   height: 148px;
+   z-index: -9;
+}
+
+.programme-sec .container::before {
+   left: -80px;
+   top: 0;
+   background-image: url(../images/scam-images/scam-top-shape.png);
+}
+
+.programme-sec .container::after {
+   background-image: url(../images/scam-images/scam-bttm-shape.png);
+   right: -40px;
+   bottom: 0;
+   display: none;
+}
+
+.programme-sec.resilient-sec .container::after {
+   display: block;
+}
+
+.programme-sec .title {
+   letter-spacing: -0.05em;
+}
+
+.scam-empowering-sec {
+   background-color: #1D2207;
+   background-image: url(../images/scam-images/yellow-shadow.png);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   z-index: 99;
+}
+
+.scam-empowering-sec::before {
+   position: absolute;
+   content: '';
+   right: 0;
+   top: 0;
+   background-image: url(../images/scam-images/scam-w-01.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 863px;
+   height: 658px;
+   z-index: -9;
+}
+
+.empowering-cards {
+   padding: 26px 20px 26px 20px;
+   background-color: #00000099;
+   backdrop-filter: blur(174px);
+   border-radius: 12px;
+   text-align: center;
+   min-height: 262px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   transition: 0.3s;
+}
+
+.empowering-cards span {
+   display: inline-block;
+   height: 44px;
+   width: 44px;
+   text-align: center;
+   line-height: 44px;
+   background-color: #FFFFFF99;
+   backdrop-filter: blur(48.55172348022461px);
+   box-shadow: 0px 17.45px 30.34px 0px #4F40FF12;
+   border-radius: 9px;
+   margin-bottom: 16px;
+}
+
+.empowering-cards h6 {
+   margin-bottom: 0;
+}
+
+.empowering-cards h6 a {
+   display: inline-block;
+   font-size: 24px;
+   font-weight: 500;
+   color: #E2EFAB;
+   margin-bottom: 10px;
+   text-decoration: underline !important;
+   text-transform: capitalize;
+}
+
+.empowering-cards p {
+   color: #DEDEDE;
+   margin-bottom: 16px;
+}
+
+.empowering-cards .seemore-btn {
+   font-size: 14px;
+   font-weight: 700;
+   color: #000;
+   display: none;
+   transition: 0.3s;
+   height: 0;
+}
+
+.empowering-cards .seemore-btn i {
+   height: 22px;
+   width: 22px;
+   text-align: center;
+   line-height: 22px;
+   background-color: #000;
+   border-radius: 25px;
+   color: #fff;
+   font-size: 10px;
+}
+
+.empowering-cards:hover {
+   background-color: #BDE04B;
+}
+
+.empowering-cards:hover span {
+   background-color: #90AD12;
+}
+
+.empowering-cards:hover h6 a {
+   color: #00022A;
+}
+
+.empowering-cards:hover p {
+   color: #626884;
+}
+
+.empowering-cards:hover .seemore-btn {
+   display: block;
+}
+
+.scam-help-faq .accordion-item {
+   background-color: transparent;
+   border: 0;
+   border-bottom: 1px solid #FFFFFF33;
+   margin-bottom: 48px;
+   border-radius: 0 !important;
+   padding-bottom: 16px;
+}
+
+.scam-help-faq .accordion-item .accordion-button {
+   background-color: transparent;
+   font-size: 20px;
+   font-weight: 500;
+   color: #fff;
+   padding: 0 0 16px 0;
+   box-shadow: none;
+}
+
+.scam-help-faq .accordion-item .accordion-body {
+   padding-left: 0;
+   padding: 16px 0 16px 0;
+}
+
+.scam-help-faq .accordion-item .accordion-body p {
+   color: #fff;
+   margin-bottom: 16px;
+}
+
+.scam-help-faq .accordion-item .accordion-body .request-btn {
+   color: #BDE04B;
+   font-weight: 700;
+}
+
+.scam-help-faq .accordion-item .accordion-body .request-btn i {
+   background-color: #BDE04B;
+   color: #000;
+}
+
+.scam-help-faq .accordion-item .accordion-button::after {
+   background-image: none;
+   content: '\f078';
+   font-family: "Font Awesome 5 Free";
+   color: #fff;
+   font-weight: 900;
+   font-size: 16px;
+}
+
+.popular-scam-sec .light-btn {
+   color: #00022A;
+   font-weight: 700;
+   margin-top: 14px;
+}
+
+.popular-scam-sec {
+   background-image: url(../images/scam-images/popular-scam-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.popular-scam-content {
+   column-count: 2;
+}
+
+.popular-scam-content li {
+   font-size: 16px;
+   font-weight: 600;
+   color: #fff;
+   padding-left: 20px;
+   margin-bottom: 18px;
+   position: relative;
+}
+
+.popular-scam-content li::before {
+    position: absolute;
+    content: '\f00c';
+    left: 0;
+    top: 0;
+    font-family: "Font Awesome 5 Free";
+    color: #BDE04B;
+    font-weight: 900; /* solid */
+}
+
+
+.scam-connected-sec {
+   background-color: #1C1C1C;
+   background-image: url(../images/scam-images/round-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 102px;
+   padding-bottom: 76px;
+   background-position: center center;
+}
+
+.scam-connected-innr {
+   padding: 31px 40px;
+   background: linear-gradient(#BDE04B, #BDE04B) padding-box, linear-gradient(0deg, #7d8168, #d2dfa3) border-box;
+   border: 4px solid #FFFFFF33;
+   backdrop-filter: blur(64px);
+   border-radius: 12px;
+   position: relative;
+   z-index: 9;
+}
+
+.scam-connected-innr::before, .scam-connected-innr::after {
+   position: absolute;
+   content: '';
+   height: 148px;
+   width: 220px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   z-index: -9;
+}
+
+.scam-connected-innr::before {
+   background-image: url(../images/scam-images/scam-top-shape.png);
+   left: -70px;
+   top: -40px;
+}
+
+.scam-connected-innr::after {
+   background-image: url(../images/scam-images/scam-bttm-shape.png);
+   right: -65px;
+   bottom: -45px;
+}
+
+.newsletter p {
+   color: #00022A;
+   font-weight: 500;
+}
+
+.newsletter-innr {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 73px;
+   background-color: #E2EFAB;
+   border-radius: 12px;
+   color: #00022A;
+   font-size: 18px;
+   padding: 6px 6px 6px 20px;
+   margin-bottom: 15px;
+}
+
+.newsletter-innr .form-control {
+   background-color: transparent;
+   border: 0;
+   border-radius: 0;
+   padding: 0;
+}
+
+.newsletter-innr button {
+   height: 61px;
+   width: 196px;
+   background-color: #fff;
+   color: #626884;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 8px;
+}
+
+.scamtip-bnnr {
+   background-image: url(../images/scam-images/scamtip-bnnr-bg.png);
+   background-repeat: no-repeat;
+   background-position: center right;
+   background-color: #050505;
+   overflow: hidden;
+   padding: 61px 0 141px;
+   background-size: cover;
+   position: relative;
+   z-index: 9;
+}
+
+.scamtip-bnnr::before {
+   position: absolute;
+   content: '';
+   right: 0;
+   bottom: 0;
+   background-image: url(../images/scam-images/green-w.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 407px;
+   width: 625px;
+   z-index: -9;
+}
+
+/*.scamtip-bnnr p{
+   letter-spacing: 0.05em;
+}*/
+.scam-alert-bnnr {
+   background-image: url(../images/scam-images/scam-alert-bnnr-bg.png);
+}
+
+.scam-alert-bnnr.scamtip-bnnr::before {
+   background-image: url(../images/scam-images/white-w.svg);
+}
+
+.scamtip-bnnr h1 {
+   font-size: 52px;
+   font-weight: 600;
+   color: #fff;
+   margin: 20px 0;
+}
+
+.featured-tip-sec {
+   background-color: #fff;
+}
+
+.featured-tip-sec .featured-vdo {
+   margin-bottom: 50px;
+}
+
+.featured-tip-cards {
+   margin-bottom: 32px;
+}
+
+.featured-tip-img {
+   height: 220px;
+   width: 100%;
+   position: relative;
+   border-radius: 4px;
+   margin-bottom: 24px;
+}
+
+.featured-tip-img img {
+   height: 100%;
+   width: 100%;
+   border-radius: 4px;
+}
+
+.featured-tip-img .featured-icon {
+   position: absolute;
+   top: 8px;
+   right: 8px;
+}
+
+.featured-tip-img .featured-icon img {
+   width: auto;
+   height: auto;
+}
+
+.featured-tip-cards a {
+   display: inline-block;
+   font-size: 22px;
+   font-weight: 500;
+   color: #00022A;
+   line-height: 1.2;
+   margin-bottom: 8px;
+}
+
+.featured-tip-cards a:hover {
+   color: #000;
+}
+
+.featured-tip-cards p {
+   font-size: 18px;
+   margin-bottom: 0;
+}
+
+.custom-pagination .pagination {
+   padding-top: 32px;
+   justify-content: center;
+   border-top: 1px solid #DBDCDF;
+   gap: 8px;
+}
+
+.custom-pagination .pagination .page-item .page-link {
+   border: 0;
+   height: 32px;
+   width: 32px;
+   text-align: center;
+   line-height: 32px;
+   background-color: transparent;
+   padding: 0;
+   border-radius: 50px;
+   color: #525866;
+   font-size: 14px;
+   font-weight: 500;
+   box-shadow: none;
+}
+
+.custom-pagination .pagination .page-item .page-link:hover, .custom-pagination .pagination .page-item.active .page-link, .dark-pagination.custom-pagination .pagination .page-item .page-link:hover, .dark-pagination.custom-pagination .pagination .page-item.active .page-link {
+   background-color: #E2EFAB;
+   color: #00022A;
+}
+
+.featured-scam {
+   background-color: #171717;
+   position: relative;
+}
+
+.featured-scam .featured-tip-cards a {
+   color: #fff !important;
+}
+
+.dark-pagination.custom-pagination .pagination .page-item .page-link {
+   background-color: #22282F;
+   color: #525866;
+}
+
+.dark-pagination.custom-pagination .pagination .page-item .page-link.link-icon {
+   background-color: transparent;
+   color: #fff;
+}
+
+.financial-fraud-sec {
+   background-color: #171717;
+   position: relative;
+   overflow-x: hidden;
+   z-index: 9;
+}
+
+.financial-fraud-sec::before, .financial-fraud-sec::after {
+   position: absolute;
+   content: '';
+   top: 50%;
+   height: 148px;
+   width: 220px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-image: url(../images/testimonial-shape-01.png);
+   z-index: -9;
+}
+
+.financial-fraud-sec::before {
+   left: 0;
+}
+
+.financial-fraud-sec::after {
+   right: 0;
+}
+
+.financial-fraud-sec p a {
+   text-decoration: underline !important;
+   color: inherit;
+}
+
+.financial-fraud-sec .featured-vdo {
+   border-radius: 12px;
+   height: 535px;
+}
+
+.financial-fraud-sec .featured-vdo video {
+   border-radius: 12px;
+}
+
+.audio-cards {
+   margin-bottom: 24px;
+}
+
+.audio-cards, .audio-overview-card {
+   padding: 16px;
+   background-color: #fff;
+   border: 1px solid #4F40FF1A;
+   box-shadow: 0px 24px 24px -8px #2A334608, 0px 10px 10px -5px #2A334608, 0px 5px 5px -2.5px #2A334608, 0px 3px 3px -1.5px #2A33460A, 0px 2px 2px -1px #2A33460A, 0px 1px 1px -0.5px #2A334608, 0px 0px 0px 1px #0E3F7E0F;
+   border-radius: 12px;
+}
+
+.audio-cards h5 {
+   font-size: 18px;
+   font-weight: 600;
+   color: #00022A;
+   margin-bottom: 16px;
+}
+
+.audio-book {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+
+.audio-book .audio-book-img {
+   height: 154px;
+   width: 154px;
+   min-width: 154px;
+   border-radius: 8px;
+}
+
+.audio-book .audio-book-img img {
+   border-radius: 8px;
+   height: 100%;
+   width: 100%;
+}
+
+.audio-book-content p {
+   font-size: 18px;
+   font-weight: 400;
+   color: #00022A;
+   margin-bottom: 16px;
+}
+
+.audio-book-control {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+
+.audio-book-control .progress {
+   width: 100%;
+   height: 8px;
+   border-radius: 25px;
+   background-color: #a69fff;
+}
+
+.audio-book-control .progress .progress-bar {
+   background-color: #4F40FF;
+}
+
+.audio-book-control button {
+   color: #4F40FF;
+   font-size: 16px;
+   font-weight: 400;
+   padding: 0;
+}
+
+.audio-text {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #626884;
+   font-size: 12px;
+   font-weight: 600;
+   margin-top: 4px;
+}
+
+.audio-overview-card {
+   display: flex;
+   align-items: center;
+   gap: 22px;
+}
+
+.audio-overview-img {
+   width: 235px;
+   height: 202px;
+   min-width: 235px;
+   border-radius: 8px;
+}
+
+.audio-overview-img img {
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+}
+
+.audio-overview-content h5, .audio-overview-content p {
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.audio-overview-content h5 {
+   font-size: 18px;
+   font-weight: 600;
+   color: #00022A;
+}
+
+.audio-overview-content a {
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 400;
+   color: #4F40FF;
+}
+
+.financial-light {
+   background-color: #fff;
+}
+
+.category-relations.victim-fraud {
+   background-color: #FAFAFA;
+}
+
+.category-relations.victim-fraud .custom-category {
+   background-color: #fff;
+}
+
+.tracker-work-sec {
+   background-color: #080A00;
+   background-image: url(../images/scam-images/yellow-shadow.png);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+.tracker-cards {
+   padding: 40px 22px;
+   background-color: #BDE04B;
+   border-radius: 12px;
+   height: 100%;
+   margin-bottom: 15px;
+}
+
+.tracker-cards span {
+   display: inline-block;
+   height: 52px;
+   width: 52px;
+   text-align: center;
+   line-height: 52px;
+   background-color: #90AD12;
+   backdrop-filter: blur(48.55172348022461px);
+   box-shadow: 0px 17.45px 30.34px 0px #4F40FF12;
+   border-radius: 9px;
+   margin-bottom: 13px;
+}
+
+.tracker-cards h4 {
+   font-size: 24px;
+   font-weight: 500;
+   color: #00022A;
+   margin-bottom: 10px;
+}
+
+.loockup-filter {
+   margin-bottom: 32px;
+}
+
+.loockup-filter-innr {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 73px;
+   background-color: #fff;
+   border: 1px solid #4F40FF;
+   backdrop-filter: blur(64px);
+   border-radius: 12px;
+   padding: 6px;
+   margin-bottom: 12px;
+   position: relative;
+}
+
+.loockup-filter-innr span {
+   color: #626884;
+   font-size: 20px;
+   margin-left: 15px;
+   position: absolute;
+   left: 0;
+   top: 25px;
+}
+
+.loockup-filter-innr .form-control {
+   border-radius: 0;
+   background-color: transparent;
+   border: 0;
+   font-size: 18px;
+       padding-left: 42px;
+}
+
+.loockup-filter-innr button {
+   padding: 16px 30px;
+   background-color: #BEE14A;
+   color: #00022A;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 8px;
+}
+
+.filter-tag {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   flex-wrap: wrap;
+}
+
+.filter-tag a {
+   display: inline-block;
+   padding: 8px 12px;
+   background-color: #FFFFFF1C;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 400;
+   border-radius: 12px;
+}
+
+.scam-loockup-cards {
+   padding: 24px;
+   background-color: #fff;
+   border-radius: 12px;
+   margin-bottom: 24px;
+   transition: 0.3s;
+}
+
+.scam-loockup-tp {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 16px;
+}
+
+.scam-loockup-cards p {
+   font-size: 14px;
+}
+
+.scam-loockup-tp a {
+   display: inline-block;
+   font-size: 28px;
+   font-weight: 400;
+   color: #000;
+}
+
+.scam-loockup-tp a:hover {
+   text-decoration: underline !important;
+}
+
+.scam-loockup-bttm {
+   display: flex;
+   gap: 24px;
+   margin-top: 16px;
+}
+
+.scam-loockup-bttm  span {
+   display: inline-block;
+   font-size: 16px;
+   font-weight: 300;
+   color: #00022A;
+   display: inline-flex;
+   align-items: flex-start;
+   position: relative;
+}
+
+.scam-loockup-bttm span:nth-last-child(1)::after {
+   display: none;
+}
+
+.scam-loockup-bttm span::after {
+   position: absolute;
+   content: '';
+   right: -14px;
+   top: 4px;
+   height: 13px;
+   width: 1px;
+   background-color: #626884;
+}
+
+.scam-loockup-bttm span em {
+   font-style: normal;
+   font-weight: 600;
+}
+
+.scam-loockup-cards.scam-yllw-cards:hover {
+   background-color: #BEE14A;
+}
+
+.scam-loockup-cards.scam-yllw-cards:hover .scam-loockup-icon span img, .scam-loockup-cards.scam-yllw-cards:hover .scam-loockup-bttm span {
+   filter: brightness(0.6);
+}
+
+.scam-connected-innr.compat-fraud-card {
+   height: 367px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.scam-connected-innr.compat-fraud-card .thm-lg-btn {
+   font-weight: 600;
+   margin-top: 48px;
+}
+
+.back-btn {
+   font-size: 24px;
+   font-weight: 400;
+   color: #fff;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+
+.scam-loockup .back-btn i {
+   font-size: 20px;
+}
+
+.scam-loockup-cards.scam-loockup-dtl p {
+   color: #00022A;
+}
+
+.scam-loockup-cards.scam-loockup-dtl .scam-loockup-tp a span {
+   display: inline-block;
+   height: 44px;
+   width: 44px;
+   text-align: center;
+   line-height: 44px;
+   border: 1px solid #E0E0E0;
+   border-radius: 50px;
+   font-size: 18px;
+   color: #00022A;
+   margin-left: 10px;
+}
+
+.scam-loockup-bttm-list li {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   margin-bottom: 32px;
+}
+
+.scam-loockup-bttm-list li:nth-last-child(1) {
+   margin-bottom: 0;
+}
+
+.scam-loockup-bttm-list li span {
+   display: inline-block;
+   height: 47px;
+   width: 47px;
+   text-align: center;
+   line-height: 47px;
+   background-color: #BEE14A;
+   backdrop-filter: blur(53.71428680419922px);
+   box-shadow: 0px 19.3px 33.57px 0px #4F40FF12;
+   border-radius: 10px;
+}
+
+.scam-loockup-bttm-list li h5 {
+   font-size: 18px;
+   font-weight: 600;
+   color: #00022A;
+   margin-bottom: 2px;
+}
+
+.scam-loockup-bttm-list li p {
+   font-size: 16px;
+   font-weight: 400;
+   color: #00022A;
+   margin-bottom: 0;
+}
+
+.experiance-cards {
+   background-color: #BEE14A;
+   background-image: url(../images/scam-images/experiance-cards-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 60px 26px;
+   border: 4px solid #FFFFFF33;
+   border-radius: 12px;
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+.experiance-cards h4 {
+   font-size: 32px;
+   font-weight: 600;
+   color: #00022A;
+   margin-bottom: 32px;
+}
+
+.experiance-cards .thm-lg-btn {
+   color: #626884;
+}
+
+.scam-report-form {
+   padding: 32px;
+   background-color: #fff;
+   border-radius: 12px;
+}
+
+.scam-report-form .custom-frm-bx label {
+   font-size: 18px;
+   margin-bottom: 8px;
+}
+
+.scam-report-form .custom-frm-bx .form-control, .scam-report-form .custom-frm-bx .form-select {
+   border-radius: 12px;
+   border-color: #626884;
+   color: #626884;
+}
+
+.scam-report-form .custom-frm-bx textarea.form-control {
+   height: 116px;
+}
+
+.scam-report-form .custom-frm-bx::placeholder {
+   color: #626884;
+   opacity: 1;
+}
+
+.scam-report-form .custom-frm-bx::-ms-input-placeholder {
+   color: #626884;
+}
+
+.custom-frm-bx-buttons {
+   padding: 4px;
+   background-color: #FAFAFA;
+   border: 1px solid #E4E7EC;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   gap: 4px;
+}
+
+.custom-frm-bx-buttons button {
+   height: 48px;
+   width: 24%;
+   color: #626884;
+   font-size: 14px;
+   font-weight: 600;
+   border-radius: 6px;
+}
+
+.custom-frm-bx-buttons button.selected, .custom-frm-bx-buttons button:hover {
+   background-color: #BEE14A;
+   color: #000;
+}
+
+.scam-report-sec .container {
+   position: relative;
+   z-index: 9;
+}
+
+.scam-report-sec .container::after {
+   position: absolute;
+   content: '';
+   right: -90px;
+   top: 0;
+   background-image: url(../images/scam-images/scam-top-shape.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 148px;
+   width: 220px;
+   z-index: -9;
+}
+
+.instruction-cards {
+   background-color: #1D2207;
+   padding: 32px;
+   border-radius: 12px;
+   background-image: url(../images/scam-images/instruction-pattern.png);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.instruction-cards h4 {
+   font-size: 18px;
+   font-weight: 500;
+   color: #fff;
+   display: inline-flex;
+   align-items: center;
+   gap: 12px;
+   margin-bottom: 14px;
+}
+
+.instruction-cards h4 span {
+   display: inline-block;
+   height: 44px;
+   width: 44px;
+   text-align: center;
+   line-height: 44px;
+   background-color: #FFFFFF99;
+   backdrop-filter: blur(48.55172348022461px);
+   border-radius: 12px;
+   box-shadow: 0px 17.45px 30.34px 0px #4F40FF12;
+   font-size: 20px;
+}
+
+.instruction-list li {
+   font-size: 14px;
+   font-weight: 400;
+   color: #fff;
+   padding: 14px 0;
+   border-bottom: 1px solid #464646;
+}
+
+.instruction-list li span {
+   color: #E2EFAB;
+   font-weight: 600;
+}
+.fa-arrow-right {
+    --fa: "\f061";
+    font-weight: 900;
+}

@@ -1,0 +1,1 @@
+// export default base_url='https://tradingapi.divanex.in/'
